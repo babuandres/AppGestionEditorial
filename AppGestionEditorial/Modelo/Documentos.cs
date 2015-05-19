@@ -46,5 +46,27 @@ namespace AppGestionEditorial.Modelo
             set { fechaDePublicacion = value; }
         }
         #endregion
+
+        #region "Constructores"
+
+        public Documentos()
+        {
+            this.nombre = "NombreLibro";
+            this.codigo = "XXXXXX";
+            this.autor = "Nombre Autor";
+            this.editorial = "Nombre Editorial";
+            this.fechaDePublicacion = "dd/mm/aaaa";
+        }
+
+        public Documentos(string nombre, string codigo, string autor, string editorial, string fechaDePublicacion)
+        {
+            this.nombre = nombre;
+            this.codigo = codigo;
+            this.autor = autor;
+            this.editorial = editorial;
+            this.fechaDePublicacion = fechaDePublicacion;
+        }
+
+        #endregion
     }
 }
