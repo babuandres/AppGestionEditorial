@@ -61,6 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modelo\Documentos.cs" />
+    <Compile Include="Modelo\Libros.cs" />
+    <Compile Include="Modelo\Revistas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
