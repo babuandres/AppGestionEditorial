@@ -47,6 +47,7 @@ namespace AppGestionEditorial.Modelo
         }
         #endregion
 
+
         #region "Constructores"
 
         public Documentos()
@@ -67,6 +68,36 @@ namespace AppGestionEditorial.Modelo
             this.fechaDePublicacion = fechaDePublicacion;
         }
 
+        #endregion
+
+        #region "Metodos Sobre Esctritos"
+        public override string ToString()
+        {
+            return "\n______________________"+
+                "\n Nombre: " + this.nombre +
+                "\n Codigo: " + this.codigo +
+                "\n Autor: " + this.autor +
+                "\n Editorial: " + this.editorial +
+                "\ Fecha de Publicacion: " + this.fechaDePublicacion;
+        }
+
+        public override bool Equals(object obj)
+        {
+            Documentos doc = (Documentos)obj;
+            bool result = false;
+ 	
+            if((this.nombre == doc.nombre) &&
+                (this.codigo == doc.codigo) &&
+                (this.autor == doc.autor) &&
+                (this.editorial == doc.editorial) &&
+                (this.fechaDePublicacion == doc.fechaDePublicacion))
+
+                result=true;
+            return result;
+        }        public override int GetHashCode()
+        {
+ 	        return base.GetHashCode();
+        }
         #endregion
     }
 }
