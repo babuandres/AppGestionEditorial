@@ -21,7 +21,7 @@ namespace AppGestionEditorial.Modelo
         }        
         #endregion
 
-        #region "Constructores"
+            #region "Constructores"
         
         public Libros(): base()
         {

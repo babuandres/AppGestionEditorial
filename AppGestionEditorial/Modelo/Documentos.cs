@@ -78,7 +78,7 @@ namespace AppGestionEditorial.Modelo
                 "\n Codigo: " + this.codigo +
                 "\n Autor: " + this.autor +
                 "\n Editorial: " + this.editorial +
-                "\ Fecha de Publicacion: " + this.fechaDePublicacion;
+                "\n Fecha de Publicacion: " + this.fechaDePublicacion;
         }
 
         public override bool Equals(object obj)
@@ -94,10 +94,13 @@ namespace AppGestionEditorial.Modelo
 
                 result=true;
             return result;
-        }        public override int GetHashCode()
+        }
+
+        public override int GetHashCode()
         {
  	        return base.GetHashCode();
-        }
+        }
+
         #endregion
     }
 }

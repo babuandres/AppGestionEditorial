@@ -1,18 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AppGestionEditorial.Modelo.Documentos">
-    <Position X="5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAgBAQAAAQAgAACEIAAAgAAAAAAAAAAAAAAAAAAIAAE=</HashCode>
-      <FileName>Modelo\Documentos.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="AppGestionEditorial.Modelo.Libros">
-    <Position X="0.75" Y="5.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAABAAAAAQAAAA=</HashCode>
-      <FileName>Modelo\Libros.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Font Name="Segoe UI" Size="9" />
-</ClassDiagram>
+<ClassDiagram /> 

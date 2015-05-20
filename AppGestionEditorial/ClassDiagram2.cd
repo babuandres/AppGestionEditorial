@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AppGestionEditorial.Modelo.Documentos" Collapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAQAAAQAgAACEoAAAgAAAAAAAAIAAAAAAAAAIAAE=</HashCode>
+      <FileName>Modelo\Documentos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionEditorial.Modelo.Libros" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="AppGestionEditorial.Modelo.Documentos" ManuallyRouted="true">
+      <Path>
+        <Point X="5" Y="1.312" />
+        <Point X="5" Y="2.114" />
+        <Point X="2.25" Y="2.114" />
+        <Point X="2.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAIAABAAAAAQAAAA=</HashCode>
+      <FileName>Modelo\Libros.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppGestionEditorial.Modelo.Revistas">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAAAAAAEgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modelo\Revistas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
