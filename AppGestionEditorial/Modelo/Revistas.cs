@@ -7,7 +7,11 @@ namespace AppGestionEditorial.Modelo
 {
     public class Revistas : Documentos
     {
+        #region "Atributos"
+        public int volumen;
+        #endregion
 
+        
 
     }
 }
