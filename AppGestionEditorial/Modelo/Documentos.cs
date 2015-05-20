@@ -45,8 +45,7 @@ namespace AppGestionEditorial.Modelo
             get { return fechaDePublicacion; }
             set { fechaDePublicacion = value; }
         }
-        #endregion
-
+        #endregion  
 
         #region "Constructores"
 
@@ -68,7 +67,7 @@ namespace AppGestionEditorial.Modelo
             this.fechaDePublicacion = fechaDePublicacion;
         }
 
-        #endregion
+        #endregion  
 
         #region "Metodos Sobre Esctritos"
         public override string ToString()
@@ -103,4 +102,4 @@ namespace AppGestionEditorial.Modelo
 
         #endregion
     }
-}
+}   
