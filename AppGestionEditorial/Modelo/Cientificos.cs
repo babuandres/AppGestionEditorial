@@ -36,7 +36,7 @@ namespace AppGestionEditorial.Modelo
         public override string ToString()
         {
             return base.ToString() +
-                "\n Tema:  " + this.tema;
+                "\n Tema: " + this.tema;
         }
 
         public override bool Equals(object obj)

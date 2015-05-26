@@ -77,7 +77,7 @@ namespace AppGestionEditorial.Modelo
                 "\n Codigo: " + this.codigo +
                 "\n Autor: " + this.autor +
                 "\n Editorial: " + this.editorial +
-                "\n Fecha de Publicacion: " + this.fechaDePublicacion;
+                "\n Fecha de Publicacion:" + this.fechaDePublicacion;
         }
 
         public override bool Equals(object obj)

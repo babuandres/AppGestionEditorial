@@ -38,7 +38,7 @@ namespace AppGestionEditorial.Modelo
         public override string ToString()
         {
             return base.ToString() +
-                "\n Volumenes: " + this.volumen;
+                "\n Volumenes:" + this.volumen;
         }
 
         public override bool Equals(object obj)

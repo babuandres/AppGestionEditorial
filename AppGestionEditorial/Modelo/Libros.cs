@@ -39,7 +39,7 @@ namespace AppGestionEditorial.Modelo
         public override string ToString()
         {
             return base.ToString() +
-                "\n Capitulos: " + this.capitulos;
+                "\n Capitulos:" + this.capitulos;
         }
 
         public override bool Equals(object obj)
